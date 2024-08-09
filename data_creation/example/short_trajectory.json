@@ -1,0 +1,34 @@
+[
+    {
+        "id": "short_example_1",
+        "dataset_name": "nq",
+        "type": " fac_locator,",
+        "instruction": "who did lebron james play for before the cavaliers ?</eoi>\n\n<|retrieval|>[1] LeBron James \n James played high school basketball at St. Vincent -- St. Mary High School in his hometown of Akron , Ohio , where he was highly promoted in the national media as a future NBA superstar . After graduating , he was selected by his home team , the Cleveland Cavaliers , as the first overall pick of the 2003 NBA draft . James led Cleveland to the franchise 's first Finals appearance in 2007 , ultimately losing to the San Antonio Spurs . In 2010 , he left the Cavaliers for the Miami Heat , a controversial move featured in an ESPN special titled The Decision . James spent four seasons with the Heat , reaching the Finals all four years and winning back - to - back championships in 2012 and 2013 . In 2013 , he led Miami on a 27 - game winning streak , the third longest in league history . Following his final season with the Heat in 2014 , James opted out of his contract and returned to the Cavaliers . From 2015 to 2017 , he led the Cavaliers to three consecutive Finals , winning his third championship in 2016 to end Cleveland 's 52 - year professional sports title drought . </retrieval>\n\n<|Locator|>\n",
+        "input": "",
+        "output": "[Relevant]: [1] LeBron James \n James played high school basketball at St. Vincent -- St. Mary High School in his hometown of Akron , Ohio , where he was highly promoted in the national media as a future NBA superstar .</eol>"
+    },
+    {
+        "id": "short_example_2",
+        "dataset_name": "fever",
+        "type": "response_generator",
+        "instruction": "Is the following statement correct or not? Say true if it's correct; otherwise say false.",
+        "input": "Ricky Martin has acted in all media except for TV.</eoi>\n\n<|Locator|>\n[Relevant]: [1] Ricky Martin\nHe also acted on stage and on TV in Mexico , becoming a modest star in the country .\n[Irrelevant]: [2] Lacking Supporting Facts\n[Irrelevant]: [3] Lacking Supporting Facts</eol>\n\n<|Generator|>:\n",
+        "output": "false\n[Cite]: [1]</eog>"
+    },
+    {
+        "id": "short_example_3",
+        "dataset_name": "asqa",
+        "type": "response_generator",
+        "instruction": "When does season eight of the walking dead end?</eoi>\n\n<|Locator|>\n[Irrelevant]: [1] Lacking Supporting Facts\n[Irrelevant]: [2] Lacking Supporting Facts\n[Irrelevant]: [3] Lacking Supporting Facts\n[Irrelevant]: [4] Lacking Supporting Facts\n[Irrelevant]: [5] Lacking Supporting Facts\n[Irrelevant]: [6] Lacking Supporting Facts\n[Irrelevant]: [7] Lacking Supporting Facts</eol>\n\n<|Generator|>:\n",
+        "input": "",
+        "output": "The last episode of season eight of The Walking Dead aired on April 15, 2018. Production for this season began on April 25, 2017 and was temporarily shut down on July 12, 2017 after stuntman John Bernecker was killed from falling more than 20 feet onto a concrete floor. \n[Cite]: </eog>"
+    },
+    {
+        "id": "short_example_4",
+        "dataset_name": "qrecc",
+        "type": "intent_reconstructor",
+        "instruction": "Given a chat history separated by new lines, generates an informative, knowledgeable and engaging response. ",
+        "input": "Where did Mihail Kogălniceanu grow up?\nMihail Kogălniceanu was educated at Trei Ierarhi monastery before being tutored by Gherman Vida, a monk who belonged to the Transylvanian School, and was an associate of Gheorghe Șincai.\nWho was Mihail Kogălniceanu's mother?\nMihail's mother, Catinca née Stavilla, was, according to Mihail Kogălniceanu's own words, [from] a Romanian family in Bessarabia.\nWhere did Mihail Kogălniceanu go to school?\nMihail Kogălniceanu completed his primary education in Miroslava, where he attended the Cuénim boarding school.\nDid he attend any other schools?</eoi>\n\n<|Reconstructor|>:\n",
+        "output": "Search(Other schools attended by Mihail Kogălniceanu)</eor>"
+    }
+]
