@@ -1,6 +1,6 @@
 # 📚️ Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks [[Paper]](https://arxiv.org/abs/2407.09893)
 
-*Shengbin Yue, Siyuan Wang, Wei Chen, Xuanjing Huang, and Zhongyu Wei**. 
+*Shengbin Yue, Siyuan Wang, Wei Chen, Xuanjing Huang, and Zhongyu Wei**
 
 **SMART**, an innovative multi-agent co-framework to internalize complex trajectories in knowledge-intensive tasks by Long- and Short-Trajectory Learning. This general paradigm can be expanded to other complex tasks, empowering arbitrary multi-agent
 frameworks to internalize tailored trajectories.
@@ -10,7 +10,7 @@ frameworks to internalize tailored trajectories.
 In this repository, we will release:
 
 - The constructed Trajectory Dataset.
-- SMART 7B model (coming soon).
+- SMART 7B model.
 - Training scripts utilized to train SMART.
 - Evaluation datasets and scripts used in our paper.
 
