@@ -1,13 +1,13 @@
-export CUDA_VISIBLE_DEVICES=0,2,3,4,5,6,7
+export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 
 MODEL_SIZE=7B
-NUM_GPUS=7
+NUM_GPUS=8
 BATCH_SIZE_PER_GPU=1
-TOTAL_BATCH_SIZE=112
+TOTAL_BATCH_SIZE=128
 GRADIENT_ACC_STEPS=$(($TOTAL_BATCH_SIZE/$NUM_GPUS/$BATCH_SIZE_PER_GPU))
 echo "Training llama model ${MODEL_SIZE} using $NUM_GPUS GPUs, $BATCH_SIZE_PER_GPU batch size per GPU, $GRADIENT_ACC_STEPS gradient accumulation steps"
 
-CUDA_VISIBLE_DEVICES=0,2,3,4,5,6,7 accelerate launch \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch \
     --mixed_precision fp16 \
     --num_machines 1 \
     --num_processes $NUM_GPUS \
