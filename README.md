@@ -9,8 +9,8 @@ frameworks to internalize tailored trajectories.
 
 In this repository, we will release:
 
-- The constructed Trajectory Dataset that can be use to train your multi-agent framework.
-- SMART 7B model (soon after)
+- The constructed Trajectory Dataset.
+- SMART 7B model (coming soon).
 - Training scripts utilized to train SMART.
 - Evaluation datasets and scripts used in our paper.
 
@@ -111,8 +111,7 @@ bash script_long_learning.sh
 if use Lora by setting `--use_lora`, plaese merge the lora weight with original model.  
 
 ```
-python merge_lora \
---base BASE_MODEL_NAME \
+python merge_lora --base BASE_MODEL_NAME \
 --target OUTPUT \
 --lora LORA_NAME
 ```
