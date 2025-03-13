@@ -9,8 +9,7 @@ frameworks to internalize tailored trajectories.
 
 In this repository, we will release:
 
-- The constructed Trajectory Dataset.
-- SMART 7B model.
+- The constructed [Trajectory Dataset](https://huggingface.co/datasets/ShengbinYue/Long-short-Trajectory).
 - Training scripts utilized to train SMART.
 - Evaluation datasets and scripts used in our paper.
 
@@ -90,7 +89,7 @@ for i in {0..3}; do
 
 The code to create Trajectory Dataset is under [data_creation](data_creation). See the instructions at [README.md](data_creation/README.md). 
 
-🚀 You can download our dataset at [HuggingFace]()
+🚀 You can download our dataset at [HuggingFace](https://huggingface.co/datasets/ShengbinYue/Long-short-Trajectory)
 
 
 ## Training
