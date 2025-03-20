@@ -110,7 +110,7 @@ bash script_long_learning.sh
 if use Lora by setting `--use_lora`, plaese merge the lora weight with original model.  
 
 ```
-python merge_lora --base-model-path BASE_MODEL_NAME \
+python merge_lora.py --base-model-path BASE_MODEL_NAME \
 --target-model-path OUTPUT \
 --lora-path LORA_NAME
 ```
