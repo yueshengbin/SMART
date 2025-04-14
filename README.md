@@ -1,4 +1,4 @@
-# 📚️ Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks [[Paper]](https://arxiv.org/abs/2407.09893)
+# 📚️ Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34772)
 
 *Shengbin Yue, Siyuan Wang, Wei Chen, Xuanjing Huang, and Zhongyu Wei**
 
