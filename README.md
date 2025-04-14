@@ -127,10 +127,14 @@ To improve the inference efficiency, we use a static retrieval approach, i.e., w
 
 If you find our work useful, please cite our paper:
 ```
-@article{yue2024synergistic,
-  title={Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks},
+@inproceedings{yue2025synergistic,
+  title={Synergistic multi-agent framework with trajectory learning for knowledge-intensive tasks},
   author={Yue, Shengbin and Wang, Siyuan and Chen, Wei and Huang, Xuanjing and Wei, Zhongyu},
-  journal={arXiv preprint arXiv:2407.09893},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={24},
+  pages={25796--25804},
+  year={2025}
+}
 }
 ```
